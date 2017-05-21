@@ -115,29 +115,39 @@ input[type="search"] {
 
 /* Main content */
 
-.container {
-    margin-top: 90px;
+main {
+    display: flex;
+    justify-content: space-around;
+     margin-top: 90px;
 }
+
+
 
 .card {
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    width: 600px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
 }
 
-.preview {
+.thumbnail{
     width: 50%;
+    height: 100%;
 }
 
 .tag, .byline, .reading-time {
     font-size: 10px;
     color: #B0B0B0;
     font-family: 'Futura', Helvetica;
+    margin: 0;
+}
+
+ .byline, .reading-time {
+    text-align: center;
 }
 
 h3 {
     font-size: 26px;
     color: #4E4E4E;
+    margin-bottom: 0;
 }
 
 h4 {
@@ -147,6 +157,11 @@ h4 {
 }
 
 .text {
-    width: 50%;
+    width: 45%;
+    float: right;
+    padding: 8px;
+}
+
+.right {
     float: right;
 }

@@ -61,16 +61,17 @@ a {
   width: 477px;
   height: 1px;
   background-color: #979797;
-  margin: auto;
-  margin-top: 20px;
+  margin-right: 50px;
 }
 
 .menu {
-    display: inline-block;
+    display: flex;
     width: 1320px;
+    align-items: center;
 }
 
 input[type="search"] {
+    float: right;
     border-radius: 40px;
     border-color: #979797;
     border-width: 2px;
@@ -79,16 +80,20 @@ input[type="search"] {
     font-family: "Helvetica Neue", Arial;
     text-indent: 30px;
     width: 250px;
+    margin-bottom: 0;
+    margin-right: 60px;
 }
 
 .search-container {
     position: relative;
+    margin-top: 20px;
 }
 
 .search-container .icon {
   position: absolute;
-  top: 15%;
+  top: 90%;
   z-index: 1;
+  margin-top: 5px;
   margin-left: 15px;
   margin-right: 20px;
 }

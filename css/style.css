@@ -116,11 +116,14 @@ input[type="search"] {
 /* Main content */
 
 main {
-    display: flex;
-    justify-content: space-around;
      margin-top: 90px;
 }
 
+.my-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 90px;
+}
 
 
 .card {
@@ -165,3 +168,4 @@ h4 {
 .right {
     float: right;
 }
+

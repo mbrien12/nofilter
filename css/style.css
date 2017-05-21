@@ -7,6 +7,13 @@ font-weight: normal;
 src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
 }
 
+@font-face {
+font-family: 'Futura';
+font-style: normal;
+font-weight: normal;
+src: local('Futura-Medium'), url('Futura-medium.woff') format('woff');
+}
+
 body {
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -70,6 +77,8 @@ a {
     align-items: center;
 }
 
+/* Search box - NEED TO MAKE RESPONSIVE */
+
 input[type="search"] {
     float: right;
     border-radius: 40px;
@@ -79,17 +88,19 @@ input[type="search"] {
     font-size: 14px;
     font-family: "Helvetica Neue", Arial;
     text-indent: 30px;
-    width: 250px;
     margin-bottom: 0;
     margin-right: 60px;
+    width: 250px;
+
 }
 
 .search-container {
     position: relative;
     margin-top: 20px;
+
 }
 
-.search-container .icon {
+ .icon {
   position: absolute;
   top: 90%;
   z-index: 1;
@@ -102,4 +113,40 @@ input[type="search"] {
     color: #979797;
 }
 
+/* Main content */
 
+.container {
+    margin-top: 90px;
+}
+
+.card {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.preview {
+    width: 50%;
+}
+
+.tag, .byline, .reading-time {
+    font-size: 10px;
+    color: #B0B0B0;
+    font-family: 'Futura', Helvetica;
+}
+
+h3 {
+    font-size: 26px;
+    color: #4E4E4E;
+}
+
+h4 {
+    font-size: 16px;
+    color: #979797;
+    font-family: 'Futura', Helvetica;
+}
+
+.text {
+    width: 50%;
+    float: right;
+}

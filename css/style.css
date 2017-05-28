@@ -241,3 +241,14 @@ footer {
     font-size: 12px;
     color: #FFFFFF;
 }
+
+#social-container {
+    color: #AEAEAE;
+    width: 50px;
+    text-align: center;
+    padding-top: 265px;
+}
+
+.fa-2x {
+    margin-right: 10px
+}

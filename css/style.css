@@ -14,8 +14,15 @@ font-weight: normal;
 src: local('Futura-Medium'), url('Futura-medium.woff') format('woff');
 }
 
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
 body {
     font-family: 'Bebas Neue', sans-serif;
+     height: 100%;
+    overflow: auto;
 }
 
 /* Header*/
@@ -47,12 +54,12 @@ ul {
     list-style-type: none;
 }
 
-li {
+.menu li {
     float: left;
     margin-top: 30px;
 }
 
-li:first-of-type {
+.menu li:first-of-type {
     margin-left: 60px;
 }
 
@@ -239,7 +246,7 @@ footer {
 }
 
 #copyright {
-    margin-top: 70px;
+    margin-top: 90px;
     font-family: 'Futura', Helvetica;
     font-size: 12px;
     color: #FFFFFF;
@@ -249,9 +256,23 @@ footer {
     color: #AEAEAE;
     width: 50px;
     text-align: center;
-    padding-top: 265px;
+    padding-top: 285px;
 }
 
 .fa-2x {
     margin-right: 10px
 }
+
+.footer-list-title {
+    color: #AEAEAE;
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+
+.footer-list > li > a {
+    font-family: 'Futura', Helvetica;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+

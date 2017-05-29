@@ -316,11 +316,11 @@ margin-left: 100px;
 }
 
 #footer-title {
-    font-size: 70px;
+    font-size: 60px;
 }
 
 #footer-subtitle {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #copyright {
@@ -352,7 +352,7 @@ margin-top: 50px;
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
 
 
 .menu ul {
@@ -402,5 +402,82 @@ margin-top: 50px;
 .responsive-menu a{text-decoration:none; color:#666;}
 .responsive-menu a:hover{text-decoration:none; color:#666;}
 
+
+#footer-title {
+    font-size: 40px;
+    line-height: 30px;
+}
+
+#footer-subtitle {
+    font-size: 15px;
+}
+
+.pagination .older {
+margin-right: 50px;
+}
+
+.pagination .newer {
+margin-left: 50px;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 650px) {
+
+.card {
+    width: 50%;
+}
+
+.thumbnail {
+  display: none;
+}
+.text {
+    width: 80%;
+}
+
+.pagination a {
+    font-size: 20px;
+    padding: 4px 8px;
+}
+
+.pagination .older {
+margin-right: 20px;
+}
+
+.pagination .newer {
+margin-left: 20px;
+}
+
+.footer-title-container {
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+
+.footer-list-title {
+
+    font-size: 20px;
+
+}
+
+.footer-list > li > a {
+    font-size: 10px;
+
+}
+
+#social-container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    padding-top: 300px;
+}
+
+.fa-2x {
+    width: 50%;
+
+}
 
 }

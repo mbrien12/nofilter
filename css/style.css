@@ -203,12 +203,12 @@ h4 {
     color: #000000;
 }
 
-.older {
-margin-right: 370px !important;
+.pagination .older {
+margin-right: 370px;
 }
 
-.newer {
-margin-left: 370px !important;
+.pagination .newer {
+margin-left: 370px;
 }
 
 /* FOOTER */
@@ -298,6 +298,27 @@ a {
 
 .card:first-of-type {
     margin-bottom: 40px;
+}
+
+.pagination .older {
+margin-right: 100px;
+}
+
+.pagination .newer {
+margin-left: 100px;
+}
+
+#footer-title {
+    font-size: 70px;
+}
+
+#footer-subtitle {
+    font-size: 40px;
+}
+
+#copyright {
+    font-size: 10px;
+    margin-top: 110px;
 }
 
 }
